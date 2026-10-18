@@ -1,6 +1,6 @@
 # Web AI Bridge
 
-Ask ChatGPT and Gemini through their web interfaces from an MCP client or the command line. Web AI Bridge connects to a dedicated Chrome session using Playwright and the Chrome DevTools Protocol (CDP), sends your prompt, and reads the response.
+Ask ChatGPT and Gemini through their web interfaces from an MCP client or the command line. Web AI Bridge connects to a dedicated Chrome session using Playwright and the Chrome DevTools Protocol (CDP), sends your prompt, and reads the response. You can ask claude too but no purpose considering claude and claude code have the same shared usage limits.
 
 The bridge uses your signed-in browser sessions; it does not require API keys. It started as a Roblox tool, so some names, output labels, and defaults still refer to Roblox. For general questions and coding tasks, use `--no-wrap` in the CLI or `wrap_for_roblox_luau=False` through MCP.
 
