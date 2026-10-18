@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "Web_AI_Bridge": {
+      "command": "python",
+      "args": [
+        "C:/path/to/web-ai-bridge/web_ai_bridge_mcp.py"
+      ]
+    }
+  }
+}
